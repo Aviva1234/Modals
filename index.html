@@ -72,6 +72,36 @@
         ><span class="carousel-control-next-icon"></span
       ></a>
     </div>
+    <!--Lightbox-->
+    <div class="row" data-toggle="modal" data-target="#modal" id="lightbox">
+      <div class="col-md-3 col-lg-4 col-sm-1">
+        <img
+          src="Brazil.jpg"
+          alt="waterfall"
+          class="w-100"
+          data-target="#Carousel"
+          data-slide-to="0"
+        />
+      </div>
+      <div class="col-md-3 col-lg-4 col-sm-1">
+        <img
+          src="hikingImg.jpg"
+          alt="hiker"
+          class="w-100"
+          data-target="#Carousel"
+          data-slide-to="1"
+        />
+      </div>
+      <div class="col-md-3 col-lg-4 col-sm-1">
+        <img
+          src="Travel.jpg"
+          alt="travel"
+          class="w-100"
+          data-target="#Carousel"
+          data-slide-to="2"
+        />
+      </div>
+    </div>
     <!--division start-->
     <div class="container-fluid text-center" id="who">
       <p>Who am I?</p>
@@ -103,7 +133,7 @@
     </div>
     -->
 
-    <div class="modal">
+    <div class="modal" id="modal">
       <div class="modal-dialog">
         <div class="modal-content">
           <!--Image Carousel-->
@@ -130,6 +160,27 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="where" class="container-fluid text-center">
+      <h2 class="text-center">Where am I?</h2>
+      <div id="imageContainerWhere" class="row">
+        <div class="col-lg-4 col-md-3 col-sm-1">
+          <p>sky</p>
+          <img src="Sky.jpg" alt="sky" class="w-100" />
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-1">
+          <p>kittens</p>
+          <img src="kittensImg.jpg" alt="kittens" class="w-100" />
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-1">
+          <p>violin</p>
+          <img src="violinImg.jpg" alt="violin" class="w-100" />
+        </div>
+      </div>
+    </div>
+    <br />
+    <div id="footerDiv">
+      <footer class="text-center">Made by Aviva</footer>
     </div>
   </body>
 </html>
